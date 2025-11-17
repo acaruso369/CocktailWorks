@@ -7,9 +7,6 @@ __pycache__/
 venv/
 ENV/
 env/
-.pythonlibs/
-uv.lock
-pyproject.toml
 
 # OS
 .DS_Store
