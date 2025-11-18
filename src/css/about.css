@@ -1,0 +1,86 @@
+*{
+  box-sizing: border-box; /* Prevents stuff from overflowing their containers - applies to everything*/
+}
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+.Content-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  width: 100%;
+  background-color: #F5FBFF;
+  color: grey;
+  padding-left: 2em;
+  gap: 2em;
+  overflow: hidden;
+}
+.contentFrame{
+  display : flex;
+  position: relative;
+  flex-direction: row;
+  gap: 0;
+}
+.contentFrame img{
+  width: 800px;
+  height: 400px;
+  border-radius: 1rem;
+  z-index: 2;
+  display: block;
+}
+.aboutContent{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  height: 50vh;
+  width: 100%;
+  background-color: #F5FBFF;
+  padding-left: 2em;
+  gap: 2em;
+}
+.headerFrame{
+  display : flex;
+  position: relative;
+  flex-direction: column;
+  gap: 0;
+  height: 10vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.headerFrame h1{
+  font-family: "Climate Crisis", sans-serif;
+  color: black;
+  text-shadow: 2px 2px 4px white;
+  font-size: 3em;
+  margin: 0
+}
+.ptext{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 0;
+  height: 20vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.ptext p{
+  font-family: "Unbounded", sans-serif;
+  color: black;
+  text-shadow: 2px 2px 4px white;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0 5em;
+}
