@@ -41,3 +41,13 @@ document.addEventListener("DOMContentLoaded", () => {
     window.location.href = "https://www.google.com";
   });
 });
+
+// Contact Form Submission Alert
+
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // stop form from actually submitting
+    alert("Message sent!");
+    event.target.reset();
+});
+
+

@@ -35,10 +35,9 @@ body {
   z-index: 0;
 }
 .cocktail-frame img{
-  padding-top: 50px;
   height: auto;
   width: 100%;
-  max-width: 500px;
+  /* max-width: 500px; */
   overlay:block;
   border-radius: 1rem;
   object-fit: contain;

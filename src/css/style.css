@@ -198,12 +198,9 @@ body {
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: flex-start;
-    min-height: 150vh;
     width: 100%;
     background-color: #F5FBFF;
     color: grey;
-    padding: 2em 1em; 
-    gap: 2em;
 }
 .Blue-img{
     width: 100%;
@@ -214,10 +211,10 @@ body {
 .Blue-img img{
     height: auto;
     width: 100%;
-    max-width: 350px;
-    border-radius: 1rem;
+    /* max-width: 600px; */
     object-fit: contain;
     z-index: 0;
+    border-radius: 1rem;
     display: block;
 }
 .object-text{
@@ -233,6 +230,27 @@ body {
     pointer-events: none;
     font-family: climate crisis;
 }
+.secondPanel{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    background-color: #F5FBFF;
+    color: grey;
+}
+.secondFrame{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 1rem;
+    z-index: 0;
+}
+
+
+
+
+
+
 @media (max-width: 400px) {
 
     .navbar {
@@ -246,18 +264,12 @@ body {
         padding-top: 3em;
     }
 
-    .Blue-img {
-        height: auto;
-        max-height: 180px;
-        
-    }
-
     .object-text {
         font-size: 1.2em;
     }
 }
 footer{
-  position: fixed;
+  position: flexed;
   left: 0;
   bottom: 0;
   width: 100%;
