@@ -245,7 +245,15 @@ body {
     border-radius: 1rem;
     z-index: 0;
 }
-
+.secondFrame img{
+    height: auto;
+    width: 100%;
+    /* max-width: 600px; */
+    object-fit: contain;
+    z-index: 0;
+    border-radius: 1rem;
+    display: block
+}
 
 
 
